@@ -1,0 +1,18 @@
+[
+  {
+    "source_relative": "reports/ablations-20261105/tests.log",
+    "sha256": "f5dcdfc1d000a503b4662fd99c871492c45473ddc2b2851931a1fe2a0618e639",
+    "recorded_count": 59,
+    "recorded_seconds": 18.082,
+    "recorded_status": "OK",
+    "scope": "historical remote test log; not rerun in this release"
+  },
+  {
+    "source_relative": "reports/evaluation-review-20261103-reference/tests.log",
+    "sha256": "05961c4b7da00afae117a09e5502c4205c0a200881398022f3dcc97f7a5208f0",
+    "recorded_count": 55,
+    "recorded_seconds": 19.285,
+    "recorded_status": "OK",
+    "scope": "historical remote test log; not rerun in this release"
+  }
+]

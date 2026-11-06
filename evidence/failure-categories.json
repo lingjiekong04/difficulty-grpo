@@ -1,0 +1,66 @@
+[
+  {
+    "variant": "U",
+    "seed": 42,
+    "format_end_fixes": 13,
+    "other_fixes": 8,
+    "format_end_regressions": 1,
+    "other_regressions": 4
+  },
+  {
+    "variant": "U",
+    "seed": 43,
+    "format_end_fixes": 10,
+    "other_fixes": 11,
+    "format_end_regressions": 3,
+    "other_regressions": 17
+  },
+  {
+    "variant": "U",
+    "seed": 44,
+    "format_end_fixes": 9,
+    "other_fixes": 9,
+    "format_end_regressions": 1,
+    "other_regressions": 16
+  },
+  {
+    "variant": "A",
+    "seed": 42,
+    "format_end_fixes": 12,
+    "other_fixes": 15,
+    "format_end_regressions": 6,
+    "other_regressions": 22
+  },
+  {
+    "variant": "A",
+    "seed": 43,
+    "format_end_fixes": 12,
+    "other_fixes": 17,
+    "format_end_regressions": 6,
+    "other_regressions": 11
+  },
+  {
+    "variant": "A",
+    "seed": 44,
+    "format_end_fixes": 14,
+    "other_fixes": 9,
+    "format_end_regressions": 7,
+    "other_regressions": 14
+  },
+  {
+    "variant": "S",
+    "seed": 42,
+    "format_end_fixes": 7,
+    "other_fixes": 9,
+    "format_end_regressions": 1,
+    "other_regressions": 18
+  },
+  {
+    "variant": "E",
+    "seed": 42,
+    "format_end_fixes": 13,
+    "other_fixes": 13,
+    "format_end_regressions": 3,
+    "other_regressions": 15
+  }
+]

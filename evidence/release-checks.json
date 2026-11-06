@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06",
+  "environment": "Windows; Python 3.13.9; matplotlib available; no torch/verl",
+  "private_archive_verified_files": 496,
+  "formal_runs_audited": 8,
+  "official_roles_verified": 17,
+  "unique_weights": 15,
+  "raw_private_reward_samples_verified": 68,
+  "cpu_unittest": {
+    "discovered": 61,
+    "passed": 53,
+    "skipped": 8,
+    "failed": 0,
+    "reason_for_skip": "torch/torchdata/verl unavailable",
+    "successful_log_scope": "workspace-local TEMP/TMP; no source modifications",
+    "initial_attempt": "System temporary-directory permissions caused 25 errors; original failure log retained privately"
+  },
+  "historical_logs": "evidence/historical-test-records.json",
+  "pdf": {
+    "pages": 10,
+    "renderer": "pypdfium2/PDFium (Poppler not installed)",
+    "render_scale": 1.6,
+    "visual_review": "all 10 rendered pages inspected individually; no garbling, clipping, overlap or table overflow observed"
+  },
+  "not_run": [
+    "SSH",
+    "GPU training",
+    "model inference",
+    "dependency installation",
+    "upstream network clone/download",
+    "GitHub CI",
+    "manual upload script commit/push"
+  ],
+  "historical_controller_archive_mismatch": true
+}

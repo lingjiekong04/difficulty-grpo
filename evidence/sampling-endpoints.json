@@ -1,0 +1,45 @@
+{
+  "scope": "snapshot after update200 feedback, before next sampling; not the whole training distribution",
+  "results": [
+    {
+      "variant": "U",
+      "seed": 42,
+      "step": 200,
+      "zero_probability": 0,
+      "max_probability": 0.00048828125,
+      "entropy_effective_questions": 2048.0,
+      "min_visits": 0,
+      "max_visits": 17
+    },
+    {
+      "variant": "A",
+      "seed": 42,
+      "step": 200,
+      "zero_probability": 0,
+      "max_probability": 0.6254933426990463,
+      "entropy_effective_questions": 26.759701148418372,
+      "min_visits": 1,
+      "max_visits": 221
+    },
+    {
+      "variant": "S",
+      "seed": 42,
+      "step": 200,
+      "zero_probability": 0,
+      "max_probability": 0.0008023521385993837,
+      "entropy_effective_questions": 1514.8801260394498,
+      "min_visits": 1,
+      "max_visits": 20
+    },
+    {
+      "variant": "E",
+      "seed": 42,
+      "step": 200,
+      "zero_probability": 1892,
+      "max_probability": 0.9967932041227306,
+      "entropy_effective_questions": 1.0379631269786393,
+      "min_visits": 1,
+      "max_visits": 543
+    }
+  ]
+}

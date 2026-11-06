@@ -1,0 +1,342 @@
+[
+  {
+    "candidate": "docs/ARCHITECTURE.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/AUDIT_FINDINGS.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/CAREER.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/DEMO.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/EXPERIMENTS.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/ITERATION_HISTORY.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/PUBLIC_SCOPE.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/REPRODUCE.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/SOURCE_REVIEW.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/UPLOAD.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "docs/VALIDATION.md",
+    "operation": "new/revised documentation from verified snapshot and local checks; not byte-identical historical evidence",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      },
+      {
+        "source_relative": "docs/PROJECT_WALKTHROUGH.zh-CN.md",
+        "sha256": "3323aff243f9ec30a80cf739afff936193e5b187e1fa9f36c2e1c98b3bd0ae76"
+      },
+      {
+        "source_relative": "docs/EVALUATION_PROTOCOL.md",
+        "sha256": "c9e86d85bd6b749bf1d5184c97965a6c65212dd6aeab5e5d4ee7e3c94c2a0bdd"
+      },
+      {
+        "source_relative": "reports/official-test-20261105/report.zh-CN.md",
+        "sha256": "c532fe814c2ba836fc671ff15689e52adde8870ad9efe97dcd7f78db9301c062"
+      },
+      {
+        "source_relative": "reports/evaluation-review-20261103-reference/report.zh-CN.md",
+        "sha256": "4b8d3362810c4445847be0d71931ea28b5a55c9ca3688de94de6d9b05e6b37d7"
+      },
+      {
+        "source_relative": "reports/ablations-20261105/report.zh-CN.md",
+        "sha256": "216bf9b9e600bb1637b5fa65764b36c08f86c8d344da4e52c822c05d2d0d9450"
+      }
+    ]
+  },
+  {
+    "candidate": "README.md",
+    "operation": "rewrite public overview; remove stale stage statuses and deployment paths",
+    "original_sources": [
+      {
+        "source_relative": "README.md",
+        "sha256": "7d28b575b29f351f7986d85dba31afc91283c4fb5c4a5acfa15be2efc2b13239"
+      }
+    ]
+  }
+]

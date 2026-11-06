@@ -1,0 +1,139 @@
+{
+  "archive_sha256": "71547702137d69407406f33ac4b807c72d91dc81f313cb3ac9603c4fbb744a88",
+  "file_count": 496,
+  "manifest_files": 495,
+  "uncompressed_payload_bytes": 25151195,
+  "split_ids_disjoint": true,
+  "split_sizes": {
+    "dev": 512,
+    "train": 2048,
+    "test": 1319
+  },
+  "frozen_eval_source_matches": {
+    "dagrpo/evaluate.py": true,
+    "dagrpo/cli.py": true,
+    "dagrpo/reward.py": true,
+    "dagrpo/data.py": true
+  },
+  "plan_id": "9e8827c33d371ffbf5b6148e4a9a894cd5f77ecaf9a7c68a2a2e6caeb44b0887",
+  "official_roles": 17,
+  "unique_models": 15,
+  "projection_files": 20,
+  "raw_sample_rewards_checked": 68,
+  "baseline_cold_comparison": {
+    "problem_id": 0,
+    "score": 0,
+    "format_error": 0,
+    "truncated": 0,
+    "tokens": 0,
+    "finish_reason": 0,
+    "stop_reason": 0,
+    "text_sha256": 0,
+    "token_ids_sha256": 0
+  },
+  "formal_runs": [
+    {
+      "variant": "A",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "A",
+      "seed": 43,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "A",
+      "seed": 44,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "E",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "S",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 43,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 44,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    }
+  ],
+  "historical_smoke_source_matches_current": {
+    "dagrpo/train.py": true,
+    "dagrpo/runner.py": true,
+    "dagrpo/sampler.py": true,
+    "dagrpo/reward.py": true,
+    "dagrpo/verl_reward.py": true,
+    "dagrpo/full_engine.py": true,
+    "dagrpo/checkpoints.py": true,
+    "compat/sitecustomize.py": true,
+    "scripts/check_fla.py": true,
+    "scripts/verify_full_resume.py": true
+  },
+  "archived_files_checked": 68,
+  "historical_archive_mismatches": {
+    "scripts/run_official_test.py": {
+      "expected": "279310537f73dd2ca5a01862715f6373d88d6bafde0e0d8881bfce0a6a7ec331",
+      "current": "f8e64c2e7e3566b5ed316acc7ae20d96ad9ddea74d7db455ec9628ddc80c856b"
+    }
+  },
+  "not_run": [
+    "SSH",
+    "GPU",
+    "model inference",
+    "training",
+    "system installs"
+  ],
+  "limits": [
+    "Full model/optimizer bytes were not collected or independently loaded.",
+    "Full prediction bytes checked against collector hashes; only scalar projections and selected raw lines are in the handoff.",
+    "Worker/vLLM RNG continuity is not proved by driver RNG restore."
+  ]
+}

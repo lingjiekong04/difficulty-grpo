@@ -1,0 +1,227 @@
+{
+  "private_review_sha256": "71547702137d69407406f33ac4b807c72d91dc81f313cb3ac9603c4fbb744a88",
+  "inventory_sha256": "123b43ea261334e7a7ba90d216cf36f0e495c1a07dc0bc44fa96fa01acc56ab3",
+  "original_evidence": [
+    {
+      "source_relative": "data/gsm8k-qwen35-9b/manifest.json",
+      "source_sha256": "39adc35166e552ecf24145c81ac604cdcca15af77dd89a1e05bc4e083dfdb924"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/results.json",
+      "source_sha256": "543f9781c87b66a2a7a3f4f524d81b8d0cf342d4538044c390e72d7f6a9a6eba"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/statistics.json",
+      "source_sha256": "9936bbe9a567901e46a806a802b938a873fe2abf4d36d1f2e93b5142d96917d3"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/frozen-plan.json",
+      "source_sha256": "c16940b36456e1e74a929c58d95fcdeac16310afd2e35f373716f7fb6f12c1ac"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/sampling-endpoints.json",
+      "source_sha256": "0f8639b0683548e2e6297060683fe99cc318edee86a4b2287460a9c948d5f3a5"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/failures-vs-base.json",
+      "source_sha256": "34877a7b11d62e7cbab3023c85cc40b4844263c1e409cd7b6fcba93f08d72d76"
+    },
+    {
+      "source_relative": "reports/evaluation-review-20261103-reference/review.json",
+      "source_sha256": "0e1015468c4ccf0d83c617549c119b9b3ea606b2579c87ff0aff9571b88afd8c"
+    },
+    {
+      "source_relative": "reports/UA-three-seeds-20261103/results.json",
+      "source_sha256": "4b52ab0646a679eb0ca3a78e74a63ab8a367f827a9ebc9ea66af071b9278dd06"
+    },
+    {
+      "source_relative": "reports/ablations-20261105/training-audit.json",
+      "source_sha256": "4d282379ffdc1fb16730b0f57d127cdbe3d41b7ab4602d2f39cf433b7059fb41"
+    },
+    {
+      "source_relative": "GPU_FULL_SMOKE.json",
+      "source_sha256": "fb79b13b11a82d1fc595e08986b8a5fab3dfb17476f1c93dd2f9ebfed413bbd7"
+    }
+  ],
+  "prediction_derivatives": [
+    {
+      "source_relative": "reports/official-test-20261105/A-42-step175/attempt-1793888368998200239/predictions.jsonl",
+      "original_sha256": "d877aaa8ef81d41088493f3493411eed10a086f9569e4930bbabd5cc6d97fc38",
+      "private_projection_sha256": "804cdbf2f0369f803da0e1b7ca472af39a7cbcf9e6d2fe2b6bbe6c7fb3b6771e",
+      "public_file": "evidence/scores/A-42-step175.jsonl",
+      "public_sha256": "4f1d083fa2a74337ea1bd124339e204da68b471c671d31699651eb02f4bac82b",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/A-42-step200/attempt-1793886802926054256/predictions.jsonl",
+      "original_sha256": "b8f79eaa9d93e609b0c5747adeabfe8077a2f8585476b40789cb7b1f17ee4f57",
+      "private_projection_sha256": "38796422d602dbb935ebca3e8040841d194da85f54f712bc152a7f9e0e663454",
+      "public_file": "evidence/scores/A-42-step200.jsonl",
+      "public_sha256": "745bd5f23ce0f789c6ea3c7e5ae5ef0fd0d0d95f7e2db04c83967276a7505071",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/A-43-step200/attempt-1793887272024726243/predictions.jsonl",
+      "original_sha256": "1034bf64c6b59d4c059f0d3e303306e399c39517751e6d7a9a78c8d3715c207f",
+      "private_projection_sha256": "b2e1e377e26b4ab07def4ef5038f8333806a15f7c428b1d8b4e928d3bd4fdc14",
+      "public_file": "evidence/scores/A-43-step200.jsonl",
+      "public_sha256": "2bcbaae5313d4e748e8f06215b5482e157af63bebcd4ec4f7a0b20c1c3bfcbe3",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/A-44-step200/attempt-1793887335340290117/predictions.jsonl",
+      "original_sha256": "aa8d72146089824069b599cf64e35ad4a0d4d1f15c7dbc3b57ee135d8d1d1433",
+      "private_projection_sha256": "42eefd649e8a4e43bf747dcbbb06988ba97f9d22f625ae91ece2d3a22de7e70f",
+      "public_file": "evidence/scores/A-44-step200.jsonl",
+      "public_sha256": "6acaf4201033525ee625e35f030f7ebe181558b3de5a1607d9ac4228fba5054b",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/A-44-step50/attempt-1793888763021428945/predictions.jsonl",
+      "original_sha256": "060f1bf2da310196ff91cdfe505196095a40c19a98ec0e32efda9640de5f6cdd",
+      "private_projection_sha256": "6b1781ed83d1dc66abf8a645a7e8503cf134e0bdd5400aee7f10b83114b261e2",
+      "public_file": "evidence/scores/A-44-step50.jsonl",
+      "public_sha256": "417d6a5b6a88cf9eb18cc99212412542ff49d907ce85a6f97dc5fe040300397e",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/BASE-42-step0/attempt-1793885689521594869/baseline-cold-repeat.jsonl",
+      "original_sha256": "7e1b53e6508b331ec22ca40557e3c6ae2d23a4bf3e0e74c2dfa5faf8946dc28a",
+      "private_projection_sha256": "ffebd2b16c6ec547938ccd6b7456a831eab7f658cb4ba74e3ed47da99f907971",
+      "public_file": "evidence/scores/BASE-42-step0-cold-repeat.jsonl",
+      "public_sha256": "8ef3f5f36f074212a516e310cf53ed02043fc26c61d3d8682b1b1ac144598f5c",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/BASE-42-step0/attempt-1793885689521594869/predictions.jsonl",
+      "original_sha256": "7e1b53e6508b331ec22ca40557e3c6ae2d23a4bf3e0e74c2dfa5faf8946dc28a",
+      "private_projection_sha256": "ffebd2b16c6ec547938ccd6b7456a831eab7f658cb4ba74e3ed47da99f907971",
+      "public_file": "evidence/scores/BASE-42-step0.jsonl",
+      "public_sha256": "8ef3f5f36f074212a516e310cf53ed02043fc26c61d3d8682b1b1ac144598f5c",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/E-42-step200/attempt-1793889268073554792/predictions.jsonl",
+      "original_sha256": "75a4beb60920d862c00d77853fce43c028d02dd4d4d3a65b91fa1ad8f365e35f",
+      "private_projection_sha256": "87ecef5b25dc512522fb08df4eec49771570bf5f665f7ed01bb1376c8eab59ea",
+      "public_file": "evidence/scores/E-42-step200.jsonl",
+      "public_sha256": "4f6f47476bcad6407919fbc2c61322d09741ec08408eb950b6e219e0d3edbbd2",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/S-42-step200/attempt-1793888897779941343/predictions.jsonl",
+      "original_sha256": "006ea057ff985cc844e8183d85fa7df1e0665ef19ed5460109435362917dc90d",
+      "private_projection_sha256": "69a618f12aa2848124148830bc85a05ab2c3d38b8106f20308c39fdf092e14fa",
+      "public_file": "evidence/scores/S-42-step200.jsonl",
+      "public_sha256": "59e2cfe9b1367dccb392fde760bf23013a679a49a1abe8363cf106e6cc6643c8",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/S-42-step75/attempt-1793889369690591633/predictions.jsonl",
+      "original_sha256": "6eed7131f36b7965bd61977d6ba50f04b139b6b41ee94c7c26f94cdac9bf0231",
+      "private_projection_sha256": "f8a36ca7e39c7708bc17bf1a6c68ad1367505fc34a48806a5dc30ad5a5bc0e21",
+      "public_file": "evidence/scores/S-42-step75.jsonl",
+      "public_sha256": "988cacda62eff9637c5357391d1a46587737ea9b0c592120cb62599035eaf1d5",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-42-step200/attempt-1793886268292682395/predictions.jsonl",
+      "original_sha256": "82663975311efb3a158d595b4eeb72d38dbad2d76047aaee0040315ae4bdc413",
+      "private_projection_sha256": "d31ae7eab321f50f8afc276cf9885508fc4b0eb5d39f85fc8f4e31f67350ef13",
+      "public_file": "evidence/scores/U-42-step200.jsonl",
+      "public_sha256": "db883e4520ba3eee5248f353cf017932db94fc53ef36d905f3fceaa4716070d4",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-42-step75/attempt-1793887810618040313/predictions.jsonl",
+      "original_sha256": "bb81f26e6adb7c2ed779b3556c3e6ae81a142a3be6af8248e3b7c6fa99ce81f7",
+      "private_projection_sha256": "d41bdc9e7dbb72e4bf194b6559c6151945485e7208fb39b2cfd762dd6d7623fd",
+      "public_file": "evidence/scores/U-42-step75.jsonl",
+      "public_sha256": "c70d244804292d56106aff7574064561269df8656ac7d19df7658b15674f42b6",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-43-step175/attempt-1793887842971677543/predictions.jsonl",
+      "original_sha256": "ab56fb17eb167504fd4b7d1871ba16017d1a0c7c86fb52812af3669bd4676ffa",
+      "private_projection_sha256": "9a5463b4e5d85f82f7018ac9b17d7a8c00e5a8dbdeee84a8c95a41bcd3f3e5d4",
+      "public_file": "evidence/scores/U-43-step175.jsonl",
+      "public_sha256": "04b578e550d2cb2a2c2a288dcc884736dfab9a50c748cb40610cc40f9f6f8cf4",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-43-step200/attempt-1793886268293623272/predictions.jsonl",
+      "original_sha256": "f258eb2990f35cf7bc6be5320f1decb6be6d01ca7c3715cf2d333bd265ee0506",
+      "private_projection_sha256": "5e5c5e3d381232068550f541e81b3bd1d581341da2e29cf0674195ae1457cfc2",
+      "public_file": "evidence/scores/U-43-step200.jsonl",
+      "public_sha256": "bf49ea8be1262acfe719f68994ec1e8a2e2f2154902a1b732f02602265f18b37",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-44-step200/attempt-1793886752164223914/predictions.jsonl",
+      "original_sha256": "3615a197b1a90cc270ad203e0b1b9a1dd32cf92390a3f4e98eaab859c301128a",
+      "private_projection_sha256": "95f8904c66ef6601de81b3147d835b6ba4e154441591c0746bbb23fa4cead90f",
+      "public_file": "evidence/scores/U-44-step200.jsonl",
+      "public_sha256": "59e25e98ee1d70b728c3334bc3de1b73cd21f7a6647426dbaa3124e23f0ef8f2",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    },
+    {
+      "source_relative": "reports/official-test-20261105/U-44-step50/attempt-1793888261027033668/predictions.jsonl",
+      "original_sha256": "b9c24486b0253d621a5905c9bdd9a89ab7a41afbffbe2fad132785c6d2086b8e",
+      "private_projection_sha256": "0b4ef16c81da08ed7cf5d5e44bdcb6e9cb885f7d0af6b585127cef87656815cd",
+      "public_file": "evidence/scores/U-44-step50.jsonl",
+      "public_sha256": "dc030fd30117bad3798c171b030c0b475bafafb3ce037c13be8b3c24b725a744",
+      "rule": "select problem_id,score,tokens,format_error,truncated from verified private scalar projection; preserve row order; compact JSONL LF"
+    }
+  ],
+  "summary_rules": [
+    "results.json: select documented scalar fields from results; recompute mean and sample SD from 3 seeds",
+    "data-manifest.json: remove deployment-specific model_path; retain IDs/revisions/hashes",
+    "failure-categories.json: replace each ID list by its length",
+    "historical-online-dev.json: select scalar metrics; explicitly mark as noisy historical online dev",
+    "No raw prompts/responses, usernames, IPs, full token sequences, PID/job state or private host environment is published.",
+    "training-metrics.jsonl: step1..200 scalar study/KL/length/timing records; response_length clip_ratio is not equivalent to strict EOS failure"
+  ],
+  "derived_public_outputs": "provenance/derived-hashes.json (generated after all documentation/PDF checks)",
+  "training_metrics_sources": [
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-A-42-save2/steps.jsonl",
+      "source_sha256": "0a0dbf7d1aac4bb7397c8959a64b3326d2ff51cdcc536b614b4b46de9d9c7580",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-A-43-save2/steps.jsonl",
+      "source_sha256": "cb4180e18bc8b6b3603f92c27fa6507a383b21a700f5bde756a69e29d39cf3f0",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-A-44-save2/steps.jsonl",
+      "source_sha256": "9a2c38a07556cbceb28c730cfe84892dbc98f6c56832aad40cf652ac508a4c07",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-E-42-save2/steps.jsonl",
+      "source_sha256": "ffa84a7d2ea236f8243bcc5679a43e56972c4b5e7f4b507dd98df7b2461ad8cd",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-S-42-save2/steps.jsonl",
+      "source_sha256": "6b9c9fe34186e7598840d26ee47bd1095cfc20ad91940344bf07e0c8b620b969",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-U-42-save2/steps.jsonl",
+      "source_sha256": "6e42d35bff76d3578731280968ccca44aa02baa6c71b32989c060ac14ddae68a",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-U-43-save2/steps.jsonl",
+      "source_sha256": "8832c463817fa791917d9d9df04702f15c5eff2702981b8fff78f763a3db74fc",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    },
+    {
+      "source_relative": "runs/full-full-qwen35-9b-b64-m8-f0-fla060-U-44-save2/steps.jsonl",
+      "source_sha256": "e57248def0f74c31d99b0fb1cca164225a973602cfff7806a0ef15393d088f10",
+      "selection": "rows with study/mixed_group_rate; last record per step; exact step set1..200; select documented scalar fields; remove PID"
+    }
+  ]
+}

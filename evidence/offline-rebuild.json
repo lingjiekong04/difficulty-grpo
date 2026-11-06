@@ -1,0 +1,22 @@
+{
+  "scope": "Offline structural rebuild; no imports/installation/GPU; not a complete upstream runtime validation",
+  "upstream_commit": "1876b06d0a3e4e71e06230be10af14492ca8a75b",
+  "upstream_regular_files_exported": 1229,
+  "upstream_links_not_followed": [
+    ".claude/skills/issue",
+    ".claude/skills/pr",
+    ".codex/skills/issue",
+    ".codex/skills/pr",
+    "CLAUDE.md"
+  ],
+  "audited_upstream_files_matched": 6,
+  "overlay_files": 28,
+  "patches_needed": [],
+  "result": "PASS for canonical upstream regular source + overlay files",
+  "runtime_execution": "not run",
+  "local_upstream_comparison": "HEAD and clean tracked status match remote audit; git -c core.autocrlf=false archive yields exact six remote source hashes",
+  "initial_attempts": [
+    "Stopped on upstream symlink; never followed, incomplete scratch retained.",
+    "Default Windows Git export used CRLF; did not match remote LF byte hashes. Scratch retained; only export configuration changed, no inherited source edits."
+  ]
+}

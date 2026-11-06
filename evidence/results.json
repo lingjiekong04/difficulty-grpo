@@ -1,0 +1,396 @@
+{
+  "results": [
+    {
+      "variant": "BASE",
+      "seed": 42,
+      "step": 0,
+      "role": "base",
+      "correct": 1252,
+      "count": 1319,
+      "accuracy": 0.9492039423805914,
+      "generated_tokens": 480441,
+      "format_error": 20.0,
+      "truncated": 18.0,
+      "output_sha256": "7e1b53e6508b331ec22ca40557e3c6ae2d23a4bf3e0e74c2dfa5faf8946dc28a"
+    },
+    {
+      "variant": "U",
+      "seed": 42,
+      "step": 200,
+      "role": "final",
+      "correct": 1268,
+      "count": 1319,
+      "accuracy": 0.9613343442001516,
+      "generated_tokens": 426833,
+      "format_error": 2.0,
+      "truncated": 2.0,
+      "output_sha256": "82663975311efb3a158d595b4eeb72d38dbad2d76047aaee0040315ae4bdc413"
+    },
+    {
+      "variant": "U",
+      "seed": 43,
+      "step": 200,
+      "role": "final",
+      "correct": 1253,
+      "count": 1319,
+      "accuracy": 0.9499620924943138,
+      "generated_tokens": 442307,
+      "format_error": 5.0,
+      "truncated": 3.0,
+      "output_sha256": "f258eb2990f35cf7bc6be5320f1decb6be6d01ca7c3715cf2d333bd265ee0506"
+    },
+    {
+      "variant": "U",
+      "seed": 44,
+      "step": 200,
+      "role": "final",
+      "correct": 1253,
+      "count": 1319,
+      "accuracy": 0.9499620924943138,
+      "generated_tokens": 417017,
+      "format_error": 2.0,
+      "truncated": 2.0,
+      "output_sha256": "3615a197b1a90cc270ad203e0b1b9a1dd32cf92390a3f4e98eaab859c301128a"
+    },
+    {
+      "variant": "A",
+      "seed": 42,
+      "step": 200,
+      "role": "final",
+      "correct": 1251,
+      "count": 1319,
+      "accuracy": 0.9484457922668689,
+      "generated_tokens": 484387,
+      "format_error": 8.0,
+      "truncated": 5.0,
+      "output_sha256": "b8f79eaa9d93e609b0c5747adeabfe8077a2f8585476b40789cb7b1f17ee4f57"
+    },
+    {
+      "variant": "A",
+      "seed": 43,
+      "step": 200,
+      "role": "final",
+      "correct": 1264,
+      "count": 1319,
+      "accuracy": 0.9583017437452616,
+      "generated_tokens": 468836,
+      "format_error": 14.0,
+      "truncated": 14.0,
+      "output_sha256": "1034bf64c6b59d4c059f0d3e303306e399c39517751e6d7a9a78c8d3715c207f"
+    },
+    {
+      "variant": "A",
+      "seed": 44,
+      "step": 200,
+      "role": "final",
+      "correct": 1254,
+      "count": 1319,
+      "accuracy": 0.9507202426080363,
+      "generated_tokens": 394123,
+      "format_error": 10.0,
+      "truncated": 6.0,
+      "output_sha256": "aa8d72146089824069b599cf64e35ad4a0d4d1f15c7dbc3b57ee135d8d1d1433"
+    },
+    {
+      "variant": "U",
+      "seed": 42,
+      "step": 75,
+      "role": "historical_best",
+      "correct": 1240,
+      "count": 1319,
+      "accuracy": 0.9401061410159212,
+      "generated_tokens": 359615,
+      "format_error": 2.0,
+      "truncated": 2.0,
+      "output_sha256": "bb81f26e6adb7c2ed779b3556c3e6ae81a142a3be6af8248e3b7c6fa99ce81f7"
+    },
+    {
+      "variant": "U",
+      "seed": 43,
+      "step": 175,
+      "role": "historical_best",
+      "correct": 1247,
+      "count": 1319,
+      "accuracy": 0.9454131918119788,
+      "generated_tokens": 418565,
+      "format_error": 7.0,
+      "truncated": 5.0,
+      "output_sha256": "ab56fb17eb167504fd4b7d1871ba16017d1a0c7c86fb52812af3669bd4676ffa"
+    },
+    {
+      "variant": "U",
+      "seed": 44,
+      "step": 50,
+      "role": "historical_best",
+      "correct": 1251,
+      "count": 1319,
+      "accuracy": 0.9484457922668689,
+      "generated_tokens": 443191,
+      "format_error": 7.0,
+      "truncated": 6.0,
+      "output_sha256": "b9c24486b0253d621a5905c9bdd9a89ab7a41afbffbe2fad132785c6d2086b8e"
+    },
+    {
+      "variant": "A",
+      "seed": 42,
+      "step": 175,
+      "role": "historical_best",
+      "correct": 1266,
+      "count": 1319,
+      "accuracy": 0.9598180439727066,
+      "generated_tokens": 502072,
+      "format_error": 7.0,
+      "truncated": 7.0,
+      "output_sha256": "d877aaa8ef81d41088493f3493411eed10a086f9569e4930bbabd5cc6d97fc38"
+    },
+    {
+      "variant": "A",
+      "seed": 43,
+      "step": 200,
+      "role": "historical_best",
+      "correct": 1264,
+      "count": 1319,
+      "accuracy": 0.9583017437452616,
+      "generated_tokens": 468836,
+      "format_error": 14.0,
+      "truncated": 14.0,
+      "output_sha256": "1034bf64c6b59d4c059f0d3e303306e399c39517751e6d7a9a78c8d3715c207f"
+    },
+    {
+      "variant": "A",
+      "seed": 44,
+      "step": 50,
+      "role": "historical_best",
+      "correct": 1252,
+      "count": 1319,
+      "accuracy": 0.9492039423805914,
+      "generated_tokens": 418451,
+      "format_error": 7.0,
+      "truncated": 6.0,
+      "output_sha256": "060f1bf2da310196ff91cdfe505196095a40c19a98ec0e32efda9640de5f6cdd"
+    },
+    {
+      "variant": "S",
+      "seed": 42,
+      "step": 200,
+      "role": "final",
+      "correct": 1249,
+      "count": 1319,
+      "accuracy": 0.9469294920394238,
+      "generated_tokens": 431645,
+      "format_error": 3.0,
+      "truncated": 3.0,
+      "output_sha256": "006ea057ff985cc844e8183d85fa7df1e0665ef19ed5460109435362917dc90d"
+    },
+    {
+      "variant": "E",
+      "seed": 42,
+      "step": 200,
+      "role": "final",
+      "correct": 1260,
+      "count": 1319,
+      "accuracy": 0.9552691432903715,
+      "generated_tokens": 365801,
+      "format_error": 7.0,
+      "truncated": 7.0,
+      "output_sha256": "75a4beb60920d862c00d77853fce43c028d02dd4d4d3a65b91fa1ad8f365e35f"
+    },
+    {
+      "variant": "S",
+      "seed": 42,
+      "step": 75,
+      "role": "historical_best",
+      "correct": 1256,
+      "count": 1319,
+      "accuracy": 0.9522365428354814,
+      "generated_tokens": 421414,
+      "format_error": 8.0,
+      "truncated": 8.0,
+      "output_sha256": "6eed7131f36b7965bd61977d6ba50f04b139b6b41ee94c7c26f94cdac9bf0231"
+    },
+    {
+      "variant": "E",
+      "seed": 42,
+      "step": 200,
+      "role": "historical_best",
+      "correct": 1260,
+      "count": 1319,
+      "accuracy": 0.9552691432903715,
+      "generated_tokens": 365801,
+      "format_error": 7.0,
+      "truncated": 7.0,
+      "output_sha256": "75a4beb60920d862c00d77853fce43c028d02dd4d4d3a65b91fa1ad8f365e35f"
+    }
+  ],
+  "statistics": {
+    "final": {
+      "U": {
+        "mean": 0.9537528430629264,
+        "sample_sd": 0.0065657725836576215
+      },
+      "A": {
+        "mean": 0.9524892595400556,
+        "sample_sd": 0.005160621141435967
+      }
+    },
+    "historical_best": {
+      "U": {
+        "mean": 0.9446550416982563,
+        "sample_sd": 0.0042212011848597715
+      },
+      "A": {
+        "mean": 0.9557745766995198,
+        "sample_sd": 0.005740620010917654
+      }
+    }
+  },
+  "training_cost": {
+    "U": {
+      "gpu_hours": {
+        "mean": 28.768785514634583,
+        "sample_sd": 0.8454348767022566
+      },
+      "training_tokens": {
+        "mean": 17471548.333333332,
+        "sample_sd": 1023750.9675494004
+      },
+      "mixed_group_rate": {
+        "mean": 0.051041666666666666,
+        "sample_sd": 0.00045105489780439354
+      }
+    },
+    "A": {
+      "gpu_hours": {
+        "mean": 30.707488370140222,
+        "sample_sd": 1.201347944974295
+      },
+      "training_tokens": {
+        "mean": 20605738.333333332,
+        "sample_sd": 1213102.5665022447
+      },
+      "mixed_group_rate": {
+        "mean": 0.136171875,
+        "sample_sd": 0.01869588545141685
+      }
+    }
+  },
+  "sampling_endpoints": {
+    "scope": "snapshot after update200 feedback, before next sampling; not the whole training distribution",
+    "results": [
+      {
+        "variant": "U",
+        "seed": 42,
+        "step": 200,
+        "zero_probability": 0,
+        "max_probability": 0.00048828125,
+        "entropy_effective_questions": 2048.0,
+        "min_visits": 0,
+        "max_visits": 17
+      },
+      {
+        "variant": "A",
+        "seed": 42,
+        "step": 200,
+        "zero_probability": 0,
+        "max_probability": 0.6254933426990463,
+        "entropy_effective_questions": 26.759701148418372,
+        "min_visits": 1,
+        "max_visits": 221
+      },
+      {
+        "variant": "S",
+        "seed": 42,
+        "step": 200,
+        "zero_probability": 0,
+        "max_probability": 0.0008023521385993837,
+        "entropy_effective_questions": 1514.8801260394498,
+        "min_visits": 1,
+        "max_visits": 20
+      },
+      {
+        "variant": "E",
+        "seed": 42,
+        "step": 200,
+        "zero_probability": 1892,
+        "max_probability": 0.9967932041227306,
+        "entropy_effective_questions": 1.0379631269786393,
+        "min_visits": 1,
+        "max_visits": 543
+      }
+    ]
+  },
+  "runs": [
+    {
+      "variant": "A",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "A",
+      "seed": 43,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "A",
+      "seed": 44,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "E",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "S",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 42,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 43,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    },
+    {
+      "variant": "U",
+      "seed": 44,
+      "steps": 200,
+      "training_mode": "full",
+      "parameters": 9409813744,
+      "optimizer_tensors": 760,
+      "execution_status": "completed"
+    }
+  ]
+}

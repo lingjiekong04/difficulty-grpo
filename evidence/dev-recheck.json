@@ -1,0 +1,130 @@
+[
+  {
+    "variant": "U",
+    "seed": 42,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.9375,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "U",
+    "seed": 43,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.939453125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "U",
+    "seed": 44,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.9375,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 42,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.94921875,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 43,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.947265625,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 44,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.94921875,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "U",
+    "seed": 42,
+    "step": 75,
+    "role": "historical_best",
+    "accuracy": 0.95703125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "U",
+    "seed": 43,
+    "step": 175,
+    "role": "historical_best",
+    "accuracy": 0.9453125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "U",
+    "seed": 44,
+    "step": 50,
+    "role": "historical_best",
+    "accuracy": 0.953125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 42,
+    "step": 175,
+    "role": "historical_best",
+    "accuracy": 0.951171875,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 43,
+    "step": 200,
+    "role": "historical_best",
+    "accuracy": 0.947265625,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "A",
+    "seed": 44,
+    "step": 50,
+    "role": "historical_best",
+    "accuracy": 0.947265625,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "S",
+    "seed": 42,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.953125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "E",
+    "seed": 42,
+    "step": 200,
+    "role": "final",
+    "accuracy": 0.947265625,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "S",
+    "seed": 42,
+    "step": 75,
+    "role": "historical_best",
+    "accuracy": 0.953125,
+    "repeated_tokens_identical": true
+  },
+  {
+    "variant": "E",
+    "seed": 42,
+    "step": 200,
+    "role": "historical_best",
+    "accuracy": 0.947265625,
+    "repeated_tokens_identical": true
+  }
+]

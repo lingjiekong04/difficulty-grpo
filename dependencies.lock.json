@@ -1,0 +1,48 @@
+{
+  "verl": {
+    "repository": "https://github.com/verl-project/verl.git",
+    "tag": "v0.9.1",
+    "commit": "1876b06d0a3e4e71e06230be10af14492ca8a75b",
+    "tracked_worktree_clean": true,
+    "audited_source_sha256": {
+      "vendor/verl/pyproject.toml": "3c107d544c23314389bdcb7a1bf5cde8787ec4dc2fc35f54113faa8f62484ecf",
+      "vendor/verl/verl/trainer/main_ppo.py": "270ffe0d0f5ddbc4e9af8d0f6eece5d11b1a6d6d76166603b5ebac81345dd5cc",
+      "vendor/verl/verl/trainer/main_ppo_v0.py": "52a22ac10fac9126fa37e6c25e48686d0d85387d2d23070e813ee1c91d8bd784",
+      "vendor/verl/verl/trainer/ppo/core_algos.py": "a54b6d812db4441e8b0989ae69d2c46b0a0a7b584296f73d8316f264462c37cb",
+      "vendor/verl/verl/trainer/ppo/ray_trainer.py": "eb41f99ccc66976eab14ebe35aa1aa5b7318e02469240ef1569ac4c884c94312",
+      "vendor/verl/verl/workers/engine/fsdp/transformer_impl.py": "79d8779fb2a0b8a1ac7b3ec85fba2521ac8cae079925a497c4366fd77f8abfbe"
+    },
+    "patches": []
+  },
+  "model": {
+    "repo": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "weight_sha256": null,
+    "weight_download_verified_this_release": false
+  },
+  "dataset": {
+    "repo": "openai/gsm8k",
+    "config": "main",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "prepared_files": {
+      "train.parquet": "bcf90d1c90fce8ae014e07a1248a1a840239ae8d09e6c9c71e22e184a545004e",
+      "test.jsonl": "05961ebe1068ec08fb6970cbb710bc504c798a51f9da3ba979f09b16d2ba303d",
+      "dev.parquet": "1b92678abd0786d1d3a4f9d77d30faf2ea24eb447f2e22e56c3277fd017b5bab",
+      "train.jsonl": "b420abf3070f86d27a1841c2348212ab5fe642dc56ebb0748bb2e286f199671d",
+      "dev.jsonl": "1216e023b984cf60f9c76f1c8407cd5e1fe9902f48b14dc9ff3d6027c490528b",
+      "test.parquet": "66ddf5d0a2e92b5d7a8e103c59c640d4b6abec39fddc5221c7a5bd2e5a52641b"
+    }
+  },
+  "environment": {
+    "python": "3.12 (training profile)",
+    "torch": "2.11.0+cu129",
+    "vllm": "0.24.0+cu129",
+    "transformers": "5.9.0",
+    "ray": "2.55.1",
+    "fla_core": "0.6.0",
+    "flash_linear_attention": "0.6.0",
+    "freeze_original_sha256": "10f51d592d88a7de1e9048253477f9324d16f7fd8591e3e0852ba97c091cdce9",
+    "freeze_public_sha256": "ed8ca36b0d9b0d0b75b0d05441d3601819f6ed7314111c5cab8308f00debf77c"
+  },
+  "links_verified_online_this_release": false
+}
